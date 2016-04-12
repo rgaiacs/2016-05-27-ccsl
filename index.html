@@ -392,6 +392,17 @@ eventbrite: 24205379943
 
 <ol>
     <li>
+        <p><strong>Consigo reembolso do workshop pelo Financiador do meu mestrado ou doutorado?</strong></p>
+        <p>Participantes de edições anteriores do workshop conseguiram reembolso.
+          {% if page.contact %}
+            <a href='mailto:{{page.contact}}'>Entre em contato</a>
+          {% else %}
+            <a href='mailto:{{site.contact}}'>Entre em contato</a>
+          {% endif %}
+          para que possamos fornecer os comprovantes que você precisa o quanto antes.
+        </p>
+    </li>
+    <li>
         <p><strong>Posso comprar mais de um ingresso na mesma compra?</strong></p>
         <p>Sim.
           {% if page.contact %}
